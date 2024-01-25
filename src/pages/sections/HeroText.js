@@ -7,7 +7,7 @@ import herotext from '../../assets/svg/heroText.svg'
 
 export default function HeroText() {
     return (
-        <div className="relative w-full block items-center-z-40 py-20">
+        <div className="relative w-full block items-center-z-40 py-20 p-10">
             <div
                 className="max-w-[1411px] w-full h-fit text-center mx-auto text-white text-4xl font-normal font-['Inter']  p-8 rounded-[80px] bg-black shadow-white shadow-lg">
                 Welcome all....Welcome to our Web3 Hub and the home of one of the freshest projects

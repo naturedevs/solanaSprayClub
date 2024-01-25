@@ -3,6 +3,8 @@ import { Button } from "@material-tailwind/react";
 import Hero from "./sections/Hero";
 import HeroText from "./sections/HeroText";
 import RoadMap from "./sections/RoadMap";
+import OurTeam from "./sections/OurTeam";
+import Credit from "./sections/Credit";
 
 export default function Landing() {
     return (
@@ -10,6 +12,8 @@ export default function Landing() {
             <Hero/>
             <HeroText/>
             <RoadMap/>
+            <OurTeam/>
+            <Credit/>
         </div>
     )
 }
