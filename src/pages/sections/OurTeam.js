@@ -7,10 +7,11 @@ import member4 from "../../assets/svg/member4.svg"
 import member5 from "../../assets/svg/member5.svg"
 import member6 from "../../assets/svg/member6.svg"
 import member7 from "../../assets/svg/member7.svg"
+import { useState, useEffect } from 'react'
 
 export default function OurTeam() {
     return (
-        <div className="relative max-w-[1400px] p-8 text-center mx-auto w-full block items-center-z-40 py-20 text-white text-4xl font-normal font-['Inter']">
+        <div className=" relative max-w-[1400px] p-8 text-center mx-auto w-full block items-center-z-40 py-20 text-white text-4xl font-normal font-['Inter']">
             <img src={ourTeam} className='mx-auto max-w-fit w-1/2 pb-5'/>
                 <br/>
                 <br/>

@@ -4,12 +4,15 @@ import icons from '../../assets/svg/5icons.svg'
 import hero from '../../assets/svg/hero.svg'
 import herobg from '../../assets/svg/herobg.svg'
 import herotext from '../../assets/svg/heroText.svg'
+import { useState, useEffect, useRef } from 'react'
+import { motion, useTransform, useScroll } from "framer-motion";
 
 export default function HeroText() {
+
     return (
-        <div className="relative w-full block items-center-z-40 py-20 p-10">
+        <div className={`w-full flex items-center-z-40 py-20 p-10  h-screen m-auto`}>
             <div
-                className="max-w-[1411px] w-full h-fit text-center mx-auto text-white text-4xl font-normal font-['Inter']  p-8 rounded-[80px] bg-black shadow-white shadow-lg">
+                className="max-w-[1411px] w-full h-fit text-center m-auto text-white text-2xl sm:text-3xl xl:text-4xl font-normal font-['Inter']  p-8 rounded-[80px] bg-black shadow-white shadow-lg">
                 Welcome all....Welcome to our Web3 Hub and the home of one of the freshest projects
                 of 2024. Solana Spray Club is not only bringing you some totally original
                 artwork to turn the NFT world on its head, we are also bringing some fantastic utility
