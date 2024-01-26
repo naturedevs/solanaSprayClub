@@ -10,8 +10,8 @@ import { motion } from "framer-motion";
 
 const hiddenStatu = "opacity-0 translate-x-full transition";
 const visibleStatu = "opacity-100 translate-x-0";
-const hiddenMask = "";
-const visibleMask = "";
+const hiddenMask = "kkk";
+const visibleMask = "kkk";
 function MotionDiv({ children }) {
   const [isLoaded, setIsLoaded] = useState(false);
   const [isInView, setIsInView] = useState(false);
