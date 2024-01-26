@@ -8,10 +8,6 @@ import OurTeam from "./sections/OurTeam";
 import Credit from "./sections/Credit";
 import { motion } from "framer-motion";
 
-// const hiddenMask = `repeating-linear-gradient(to right, rgba(0,0,0,0) 0px, rgba(0,0,0,0) 60px, rgba(0,0,0,1) 60px, rgba(0,0,0,1) 60px)`;
-// const visibleMask = ` repeating-linear-gradient(to right, rgba(0,0,0,0) 0px, rgba(0,0,0,0) 0px, rgba(0,0,0,1) 0px, rgba(0,0,0,1) 60px)`;
-// const hiddenMask = `opacity-0  transition-all`;
-// const visibleMask = `opacity-100  transition-all`;
 const hiddenStatu = "opacity-0 translate-x-full transition";
 const visibleStatu = "opacity-100 translate-x-0";
 const hiddenMask = "";
